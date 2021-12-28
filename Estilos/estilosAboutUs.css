@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.headerIndex{
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+}
+
+#pI1{
+    float: left;
+    width: 25%;
+    height: 80px;
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    text-align: right;
+}
+
+p span{ 
+    color: orange;
+}
+
+.navIndex{
+    float: right;
+    width: 75%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    font-size: 40px;
+    margin: 35px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+
+
+.divIndex{
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    height: 600px;
+}
+
+.item{
+    background-color: orange;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    min-height: 60px;
+}
+
+h4{
+    color: white;
+    background-color: black;
+}
+
+.item1{
+    background-image: url(../multimedia/TheBigLeader.png);
+    background-size: cover;
+}
+
+.item2{
+    background-image: url(../multimedia/Non-sleeper.png);
+    background-size: cover;
+}
+
+.item3{
+    background-image: url(../multimedia/Alchemist.png);
+    background-size: cover;
+}
+
+.item4{
+    background-image: url(../multimedia/peacock-CTO.png);
+    background-size: cover;
+}
+
+footer{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+fieldset{
+    border: 3px solid darkred;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .headerIndex{
+        background-color: orange;
+        width: 100%;
+        height: 150px;
+    }
+    
+    #pI1{
+        float: left;
+        width: 25%;
+        height: 80px;
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        text-align: right;
+    }
+    
+    p span{ 
+        color: orange;
+    }
+    
+    .navIndex{
+        float: right;
+        width: 75%;
+        height: 80px;
+        background-color: black;
+        text-align: center;
+        
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: inline;
+        font-size: 30px; 
+        margin: 5%;
+    }
+    
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 50px;
+    }
+    
+    nav a:hover{
+        color: orange;
+    }
+    
+    .divIndex{
+        background-color: darkgrey;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        /* grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 300px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px; */
+        
+    }
+    
+    .item{
+        background-color: orange;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 25px;
+        min-height: 60px;
+        width: 100%;
+        margin: 2%;
+        height: 300px;
+    }
+    
+    h4{
+        color: white;
+        background-color: black;
+    }
+    
+    .item1{
+        background-image: url(../multimedia/TheBigLeader.png);
+        background-size: cover;
+    }
+    
+    .item2{
+        background-image: url(../multimedia/Non-sleeper.png);
+        background-size: cover;
+    }
+    
+    .item3{
+        background-image: url(../multimedia/Alchemist.png);
+        background-size: cover;
+    }
+    
+    .item4{
+        background-image: url(../multimedia/peacock-CTO.png);
+        background-size: cover;
+    }
+    
+    footer{
+        background-color: darkorange;
+        font-size: 10px;
+        font-family: fantasy;
+        margin-top: 40px;
+       
+    }
+    
+    fieldset{
+        border: 3px solid darkred;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:382px){
+
+    nav ul li{
+        font-size: 22px;
+    }
+}
+
